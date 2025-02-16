@@ -5,7 +5,7 @@ import threading
 import subprocess
 
 TOKEN = "7526972070:AAHvzU-FMBfzxFxk26HzFAMqixadTZo_Bjo"  # Replace with your bot token
-bot = telebot.TeleBot(5894848388)
+bot = telebot.TeleBot("5894848388")
 
 active_attacks = {}
 cooldowns = {}
